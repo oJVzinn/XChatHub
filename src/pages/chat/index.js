@@ -1,0 +1,85 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+function Chat() {
+  return (
+      <>
+          <Header/>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <h1>
+              a
+          </h1>
+          <Footer/>
+      </>
+  );
+}
+
+export default Chat;
