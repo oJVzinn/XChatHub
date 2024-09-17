@@ -1,0 +1,48 @@
+.Friends {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-block: 10px;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.userInfos {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.userIcon {
+    border-radius: 50%;
+    padding-inline: 25px;
+}
+
+.userName {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.messagesNoRead {
+    background-color: #BB86FC;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.line {
+    content: '';
+    width: 90%;
+    height: 2px;
+    background-color: #1F1F1F;
+}

@@ -22,6 +22,11 @@
     padding: 0;
 }
 
-.home {
+.profile {
     padding-inline: 50px;
+}
+
+.removeSpace {
+    content: '';
+    margin-top: 100px;
 }
