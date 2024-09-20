@@ -1,9 +1,10 @@
 import styles from "./Friend.module.css"
+import {Link} from "react-router-dom";
 
-export default function Friends({userID, userIcon, userName, lastMessage, totalNoReadMessages}) {
+export default function Friends({userID, userIcon, userName, lastMessage, totalNoReadMessages, insertLine}) {
     return (
         <div style={{paddingInline: "50px"}}>
-            <a href={`chat/` + userID} className={styles.Friends}>
+            <Link to={`chat/` + userID} className={styles.Friends}>
                 <img src={userIcon} alt="userIcon" width="65px" height="65px" className={styles.userIcon} style={{}}/>
                 <div className={styles.userInfos}>
                     <span className={styles.userName}>
@@ -22,8 +23,9 @@ export default function Friends({userID, userIcon, userName, lastMessage, totalN
                         <span className={styles.messagesNoRead}>{totalNoReadMessages}</span>
                     </div>
                 }
-            </a>
-            <div className={styles.line}/>
+            </Link>
+
+            {insertLine && <div className={styles.line}/>}
         </div>
 
     )

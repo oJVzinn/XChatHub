@@ -3,8 +3,7 @@
     height: 120px;
     color: white;
     background-color: #1F1F1F;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
