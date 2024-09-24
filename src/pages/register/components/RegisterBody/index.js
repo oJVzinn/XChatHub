@@ -17,8 +17,8 @@ export default function LoginBody() {
                         <div className={styles.select}>
                             <span>Sexo:</span>
                             <select className={styles.selectBox} id="gender">
-                                <option value="male">Masculino</option>
-                                <option value="female">Feminino</option>
+                                <option value="male" className={styles.option}>Masculino</option>
+                                <option value="female" className={styles.option}>Feminino</option>
                             </select>
                         </div>
                         <div className={styles.select}>
