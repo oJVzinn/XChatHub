@@ -21,29 +21,20 @@
     padding: 0;
 }
 
-.loginBox {
+.registerBox {
     background: #1F1F1F;
-    height: 70%;
+    height: 65%;
     width: 25%;
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 
-.loginForm {
+.registerForm {
     height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.login {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 50%;
-    padding-block: 20px;
 }
 
 .inputBox {
@@ -57,10 +48,34 @@
     padding-inline: 3%;
 }
 
+.selectContainer {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.select {
+    display: flex;
+    justify-content: start;
+    height: 35px;
+    align-items: center;
+}
+
+.selectBox {
+    margin: 0 0 0 15px;
+    padding: 2px;
+    background: transparent;
+    border: 1px solid #D9D9D9;
+    color: #D9D9D9;
+    color-scheme: dark;
+    border-radius: 5px;
+}
+
 .submitButton {
     width: 100%;
-    height: 40px;
-    background-color: #3700B3;
+    height: 50px;
+    background-color: #03DAC6;
     margin-top: 10px;
     border-radius: 5px;
     border: none;
@@ -72,44 +87,15 @@
 }
 
 .inputBox::placeholder {
-    color: white;
+    color: #D9D9D9;
     font-size: 15px;
 }
 
-.forgetPassword {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-.line {
-    content: '';
+.buttonContainer {
+    height: 100%;
     width: 100%;
-    height: 1px;
-    background-color: #D9D9D9;
-}
-
-.registerContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
-}
-
-.registerButton {
-    background-color: #03DAC6;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    height: 40%;
-    color: white;
-    text-decoration: none;
-    align-items: center;
     display: flex;
     justify-content: center;
-}
-
-.registerButton:hover {
-    cursor: pointer;
+    align-items: end;
 }
 

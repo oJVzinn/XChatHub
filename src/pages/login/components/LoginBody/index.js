@@ -21,7 +21,7 @@ export default function LoginBody() {
                 </div>
                 <div className={styles.line}/>
                 <div className={styles.registerContainer}>
-                    <button className={styles.registerButton}>Criar uma nova conta</button>
+                    <Link to="/register" className={styles.registerButton}>Criar uma nova conta</Link>
                 </div>
             </div>
         </div>

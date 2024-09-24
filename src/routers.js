@@ -3,6 +3,8 @@ import Home from "./pages/home";
 import Chat from "./pages/chat";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/login";
+import LoginBody from "./pages/login/components/LoginBody";
+import Register from "./pages/register";
 
 function AppRouters() {
     return (
@@ -26,6 +28,10 @@ function AppRouters() {
             {
                 path: "/login",
                 element: <Login/>,
+            },
+            {
+                path: "/register",
+                element: <Register/>,
             }
         ])}/>
     );
